@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 2.8.3)
-project(ndt_omp)
+cmake_minimum_required(VERSION 3.10)
+project(ndt_omp VERSION 0.0.0)
 
 # Use C++17 for shared_mutex and modern PCL/ROS headers.
 set(CMAKE_CXX_STANDARD 17)
