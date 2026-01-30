@@ -81,4 +81,4 @@ install(
 
 # install headers
 install(DIRECTORY include/ndt_omp
-        DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION})
+        DESTINATION ${CATKIN_GLOBAL_INCLUDE_DESTINATION})
